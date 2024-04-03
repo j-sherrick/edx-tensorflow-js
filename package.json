@@ -2,33 +2,33 @@
   "name": "edx-tensorflow-js",
   "version": "1.0.0",
   "description": "A monorepo for edX 'Google AI for JavaScript Developers with Tensorflow.js,' adapted for TypeScript.",
-  "main": "",
+  "main": "index.html",
   "type": "module",
   "scripts": {
-    "start": "",
-    "build": "",
-    "test": "",
-    "dev": ""
+      "dev": "vite",
+      "build": "tsc && vite build",
+      "preview": "vite preview"
   },
   "keywords": [
     "artificial-intelligence",
     "machine-learning",
     "deep-learning",
     "ai",
+    "google-ai",
     "typescript",
     "javascript",
     "node",
     "npm",
-    "tensorflow"
+    "tensorflow",
+    "edx"
   ],
   "author": "Jason Sherrick",
   "license": "MIT",
   "workspaces": [
     "03-smart-camera"
   ],
-  "dependencies": {
-  },
   "devDependencies": {
-    "@types/node": "^20.12.2"
+    "@types/node": "^20.12.2",
+    "vite": "^5.2.7"
   }
 }
