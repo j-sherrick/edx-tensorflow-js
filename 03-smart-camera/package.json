@@ -1,0 +1,12 @@
+{
+  "name": "03-smart-camera",
+  "version": "1.0.0",
+  "description": "Lesson 3: Make Your Own Smart Camera",
+  "main": "smart-camera.html",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Jason Sherrick",
+  "license": "MIT"
+}
