@@ -1,0 +1,1 @@
+console.log('the smart camera script was loaded!');
